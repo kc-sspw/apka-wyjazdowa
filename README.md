@@ -1,3 +1,13 @@
+> **Status w KC SSPW: materiał referencyjny / prototyp, nie produkt wdrożeniowy.**
+>
+> Repozytorium zawiera kod projektu **Poligon** udostępniony jako materiał wyjściowy do analizy przy rozwijaniu większej aplikacji wyjazdowej. Głównym repozytorium planowanego produktu Komisji jest **[kc-sspw/appka-eventowa](https://github.com/kc-sspw/appka-eventowa)** (repozytorium prywatne).
+>
+> Wykorzystanie elementów tego kodu w nowym produkcie wymaga osobnego przeglądu wymagań, bezpieczeństwa, praw do kodu i decyzji architektonicznej. Samo umieszczenie kodu w organizacji nie oznacza zatwierdzenia technologii ani gotowości produkcyjnej.
+>
+> **Uwaga:** dokumentacja poniżej opisuje zastany projekt Poligon i nie stanowi instrukcji wdrożenia docelowego systemu KC.
+
+---
+
 # Poligon Backend
 
 Backend aplikacji **Poligon**, napisany w Java i Spring Boot. Aplikacja udostępnia REST API do zarządzania danymi wykorzystywanymi przez frontend, obsługuje uwierzytelnianie przez Firebase, aktualizacje w czasie rzeczywistym przez WebSocket oraz integrację z SMSAPI.
