@@ -19,11 +19,8 @@ public class VerifiedUsersService {
 
     public boolean isEmailAllowed(String email) {
         refreshIfNeeded();
-        System.out.println("LOG BACKEND: Sprawdzam email: ->" + email + "<-");
-        System.out.println("LOG BACKEND: Zawartość cache: " + allowedEmails);
 
         boolean allowed = email != null && allowedEmails.contains(email.trim().toLowerCase());
-        System.out.println("LOG BACKEND: Czy dozwolony? " + allowed);
         return allowed;
     }
 
@@ -94,11 +91,9 @@ public class VerifiedUsersService {
 
             allowedEmails = Collections.unmodifiableSet(newCache);
             lastRefresh = Instant.now();
-            System.out.println("Pomyślnie załadowano e-maile: " + allowedEmails);
 
         } catch (Exception e) {
             System.err.println("Błąd pobierania e-maili z Firestore:");
-            e.printStackTrace();
         }
     }
 }
