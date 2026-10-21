@@ -2,7 +2,6 @@ FROM maven:3.8.5-openjdk-17 AS BUILD
 WORKDIR /build
 COPY pom.xml .
 RUN mvn -B dependency:go-offline
-COPY .env .
 COPY src/ src/
 RUN mvn -B -f pom.xml clean package -DskipTests
 
