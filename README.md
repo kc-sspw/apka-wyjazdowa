@@ -1,10 +1,12 @@
 > **Status w KC SSPW: materiał referencyjny / prototyp, nie produkt wdrożeniowy.**
 >
-> Repozytorium zawiera kod projektu **Poligon** udostępniony jako materiał wyjściowy do analizy przy rozwijaniu większej aplikacji wyjazdowej. Głównym repozytorium planowanego produktu Komisji jest **[kc-sspw/appka-eventowa](https://github.com/kc-sspw/appka-eventowa)** (repozytorium prywatne).
+> Repozytorium zawiera kod projektu **Poligon** udostępniony jako materiał wyjściowy do analizy przy rozwijaniu większej aplikacji wyjazdowej. Głównym repozytorium planowanego produktu Komisji jest **[kc-sspw/appka-eventowa](https://github.com/kc-sspw/appka-eventowa)** (repozytorium publiczne, główny produkt w fazie PoC).
 >
-> Wykorzystanie elementów tego kodu w nowym produkcie wymaga osobnego przeglądu wymagań, bezpieczeństwa, praw do kodu i decyzji architektonicznej. Samo umieszczenie kodu w organizacji nie oznacza zatwierdzenia technologii ani gotowości produkcyjnej.
+> Właściciel projektu potwierdził 23.10.2026 prawo do wykorzystania kodu referencyjnego; przy kopiowaniu konkretnych plików nadal trzeba zachować autorstwo i sprawdzić licencje zależności. Wybór i ewentualna adaptacja modułów wymagają przeglądu wymagań, bezpieczeństwa i decyzji architektonicznej. Samo umieszczenie kodu w organizacji **nie oznacza** gotowości produkcyjnej ani zatwierdzenia technologii.
 >
 > **Uwaga:** dokumentacja poniżej opisuje zastany projekt Poligon i nie stanowi instrukcji wdrożenia docelowego systemu KC.
+>
+> [Przejdź do instrukcji planowania PoC docelowej appki](https://github.com/kc-sspw/appka-eventowa/blob/main/docs/POC_START_HERE.md).
 
 ---
 
