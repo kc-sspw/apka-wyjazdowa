@@ -37,7 +37,7 @@ services:
     environment:
       POSTGRES_DB: zero
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: zerotajnaapka
+      POSTGRES_PASSWORD: "${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in environment or untracked .env before Docker Compose}"
     volumes:
       - db_data:/var/lib/postgresql/data
     networks:

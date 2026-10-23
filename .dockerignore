@@ -1,0 +1,18 @@
+# Exclude local credentials and personally identifiable seed files from the build context.
+.git
+.env
+.env.*
+**/.env
+**/.env.*
+**/*service-account*.json
+**/*.pem
+**/*.key
+images/
+crew-seed.json
+team-seed.json
+song-seed.json
+trainer-seed.json
+schedule-seed.json
+target/
+.idea/
+*.log
